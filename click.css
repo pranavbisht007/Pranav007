@@ -1,0 +1,222 @@
+*{
+  margin:0px;
+  padding:0px;
+  background:transparent;
+  box-sizing:border-box;
+  
+  
+.btn:active{
+  transform:scale(1.2);
+  
+}
+.search::placeholder{
+  color:white;
+  font-size:16px;
+}  
+.contact:hover,.about:hover,
+.home:hover,.service:hover,.design:hover  {
+  font-size:20px;
+  font-Style:Bold;
+  transition:0.4ease;
+  color:orange;
+  
+}  
+body{
+  background-image :
+  url('https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  width:100%;
+}
+  
+
+}
+nav{
+  margin-top:10px;
+  height:50px;
+  width:100%;
+}
+
+.pro{
+  color:orange;
+  font-size:30px;
+  font-weight:800;
+  margin-left:3%;
+  font-family:Italic;
+}
+
+.home,.about,.service,.design,.contact{
+  margin-left:3.5%;
+  font-size:16px;
+  font-weight:500;
+  color:white;
+}
+.search{
+  position:absolute;
+  right:0;
+  top:0;
+  margin-top:20px;
+  margin-right:12.5%;
+  border-style:solid;
+  height:28px;
+  width:18%;
+  border-color:orange;
+  color:white;
+  padding:10px;
+  border-radius:3px;
+}
+.btn{
+  position:absolute;
+  top:0;
+  right:0;
+  margin-top:19px;
+  margin-right:3%;
+  height:30px;
+  width:10%;
+  color:white;
+  background-color:orange;
+  border-color:orange;
+  font-size:16px;
+  padding:auto;
+  border-radius:6px;
+}
+.write{
+  margin-left:3%;
+  margin-top:80px;
+  margin-bottom:auto;
+  color:white;
+}
+.h1{
+  font-size:52px;
+  color:orange;
+  font-family:Georgia;
+}
+.h12,.h11{
+  font-size:46px;
+  font-family:Georgia;
+}
+.join{
+  height:34px;
+  width:15%;
+  border-radius:8px;
+  padding:auto;
+  background-color:orange;
+  border-color:orange;
+  margin-bottom:40px;
+}
+.join:active{
+  transform:scale(1.1);
+}
+.box{
+  height:390px;
+  width:28%;
+  margin-right:3%;
+  background-color:grey;
+  border-radius:8px;
+  position:absolute;
+  right:0;
+  top:0;
+  margin-top:114px;
+ 
+  
+}
+.login{
+  background-color:white;
+  border-radius:8px;
+  margin-left:10%;
+  margin-right:10%;
+  color:orange;
+  font-size:22px;
+  font-weight:700;
+  height:36px;
+  margin-top:20px;
+  padding:2.2% 20% ;
+  
+}
+.email,.password{
+  border-style:none;
+  font-size:20px;
+  height:28px;
+  width:80%;
+  padding:10px;
+  color:white;
+  margin-top:30px;
+  margin-right:10%;
+  margin-left:10%;
+}
+.email::placeholder,
+.password::placeholder{
+  color:white;
+  font-size:20px;
+}
+.hr1,.hr2{
+  margin-left:9%;
+  margin-right:9%;
+  height:2px;
+  margin-top:8px;
+  border-color:orange;
+}
+
+.loginbtn{
+  background-color:orange;
+  border-radius:8px;
+  border-color:orange;
+  font-size:22px;
+  font-weight:500;
+  height:38px;
+  width:80%;
+  margin-top:20px;
+  margin-left:10%;
+  margin-right:10%;
+  cursor:pointer;
+  border-color:none;
+  border-width:0px;
+  
+}
+.loginbtn:active{
+  transform:scale(1.1);
+  background-color:white;
+}
+.p1{
+  font-size:16px;
+  color:white;
+  margin-left:22%;
+  margin-top:16px;
+  
+}
+.p2{
+  color:white;
+  font-size:16px;
+  margin-top:2px;
+  position:absolute;
+  left:34%;
+}
+.a1{
+  color:orange
+}
+.p3{
+  color:white;
+  font-size:14px;
+  margin-left:36%;
+  margin-top:34px;
+  font-family:Georgia;
+}
+.icons{
+  margin-top:6px;
+  margin-left:5%;
+  margin-right:5%;
+  color:white;
+  
+}
+.icons a{
+  color:white;
+  font-size:24px;
+  margin-left:7.5%;
+ 
+}
+.icons a :hover{
+  transition:0.3ease;
+  color:orange;
+  transform:scale(1.4);
+}
